@@ -109,14 +109,22 @@ import { aboutContent } from "../config/content.ts";
               >
                 {aboutContent.description}
               </p>
-              <div class="mt-auto pt-4 flex flex-wrap gap-2">
-                {
-                  aboutContent.skills.map((skill) => (
-                    <span class="px-3 py-1 text-sm bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-200 rounded-full">
-                      {skill}
-                    </span>
-                  ))
-                }
+              <h2 class="mt-8 mb-2 text-2xl font-bold dark:text-neutral-200">
+                {aboutContent.connect.title}
+              </h2>
+              <div class="py-[30px]">
+                <p
+                  class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
+                >
+                  {aboutContent.connect.description}
+                  <a
+                    href={aboutContent.connect.email.href}
+                    class="text-indigo-600 underline"
+                  >
+                    {aboutContent.connect.email.text}
+                  </a>
+                  .
+                </p>
               </div>
             </div>
             <div class="w-full md:w-1/2 flex justify-end">
@@ -177,21 +185,25 @@ import { aboutContent } from "../config/content.ts";
 
           <div class="w-[360px] ml-8">
             <h2 class="mb-2 text-2xl font-bold dark:text-neutral-200">
-              {aboutContent.connect.title}
+              Skills
             </h2>
-            <div class="py-[30px]">
-              <p
-                class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
-              >
-                {aboutContent.connect.description}
-                <a
-                  href={aboutContent.connect.email.href}
-                  class="text-indigo-600 underline"
-                >
-                  {aboutContent.connect.email.text}
-                </a>
-                .
-              </p>
+            <div class="pt-4 space-y-4">
+              {
+                aboutContent.skills.map((skillGroup) => (
+                  <div>
+                    <p class="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-neutral-500 dark:text-neutral-400">
+                      {skillGroup.name}
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                      {skillGroup.keywords.map((skill) => (
+                        <span class="px-3 py-1 text-sm bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-200 rounded-full">
+                          {skill}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                ))
+              }
             </div>
           </div>
         </div>

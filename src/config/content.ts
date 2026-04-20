@@ -36,16 +36,52 @@ export const aboutContent = {
   },
   title: "About Me",
   description:
-    "This is where you can introduce yourself or your company. Share your story, mission, and values. Explain what makes you unique and why people should be interested in your work. Keep it concise but engaging.",
+    "Backend-focused software engineer with deep experience in building scalable cloud platforms, distributed systems, and integration-heavy enterprise solutions. I work across architecture, delivery, and platform engineering, with a strong focus on Java, AWS, microservices, and event-driven systems.",
   skills: [
-    "Next.js",
-    "React",
-    "TypeScript",
-    "Tailwind CSS",
-    "Node.js",
-    "Docker",
-    "Git",
-    "AWS",
+    {
+      name: "Programming Languages",
+      keywords: ["Java", "Kotlin", "Python", "JavaScript", "TypeScript"],
+    },
+    {
+      name: "Software Architecture",
+      keywords: ["Microservices", "Event-Driven", "Serverless", "DDD"],
+    },
+    {
+      name: "Frameworks & Libraries",
+      keywords: ["Spring Boot", "Spring Cloud", "Hibernate", "ReactJS", "NodeJS"],
+    },
+    {
+      name: "DevOps & Infrastructure",
+      keywords: ["Docker", "Kubernetes", "Terraform", "AWS CDK", "Helm"],
+    },
+    {
+      name: "Cloud Computing",
+      keywords: ["AWS", "Lambda", "Containers", "Storage", "Managed Databases"],
+    },
+    {
+      name: "Databases",
+      keywords: ["PostgreSQL", "Redis", "MongoDB"],
+    },
+    {
+      name: "Messaging & Streaming",
+      keywords: ["RabbitMQ", "EventBridge", "AMQP", "MQTT"],
+    },
+    {
+      name: "APIs & Protocols",
+      keywords: ["REST", "WebSockets", "GraphQL"],
+    },
+    {
+      name: "Testing",
+      keywords: ["JUnit", "Mockito"],
+    },
+    {
+      name: "CI/CD",
+      keywords: ["Jenkins", "GitHub Actions", "ArgoCD"],
+    },
+    {
+      name: "Monitoring",
+      keywords: ["ELK Stack", "DataDog"],
+    },
   ],
   image: {
     src: "/assets/images/about/photo.png",
@@ -55,31 +91,81 @@ export const aboutContent = {
     title: "Experience",
     items: [
       {
-        period: "2022 - Present",
-        position: "Senior Frontend Developer",
-        company: "Tencent Cloud",
+        period: "Jun 2024 - Present",
+        position: "Lead Developer",
+        company: "Roofio.ai",
         description:
-          "Leading frontend development for EdgeOne platform and templates.",
+          "Leading the end-to-end development of an AI-powered MVP for analyzing technical drawings, from platform setup to delivery.",
       },
       {
-        period: "2020 - 2022",
-        position: "Frontend Developer",
-        company: "Tencent Cloud",
+        period: "Jun 2023 - Jun 2024",
+        position: "Senior Software Developer",
+        company: "Rekor.ai",
         description:
-          "Developed and maintained multiple web applications and tools.",
+          "Contributed to a data-driven road operating system with a focus on backend design, performance optimization, and scalability.",
       },
       {
-        period: "2018 - 2020",
-        position: "Junior Developer",
-        company: "Tencent Cloud",
-        description: "Worked on various client projects and internal tools.",
+        period: "Jan 2023 - Jun 2023",
+        position: "Principal Java Developer / Industrial Blockchain Leader",
+        company: "Supply-Block-Chain (Web3)",
+        description:
+          "Led a proof-of-concept blockchain initiative for supply chain management using Hyperledger Fabric.",
+      },
+      {
+        period: "Jan 2022 - Dec 2022",
+        position: "Principal Java Developer",
+        company: "Philip Morris International (P4 / IIoT)",
+        description:
+          "Built an industrial IoT platform based on microservices and event-driven architecture.",
+      },
+      {
+        period: "Jan 2020 - Feb 2022",
+        position: "Principal Java Developer",
+        company: "Philip Morris International (Digiperf)",
+        description:
+          "Delivered a scalable microservices platform supporting digital transformation across enterprise operations.",
+      },
+      {
+        period: "Jun 2018 - Dec 2019",
+        position: "Senior Java Developer / Solution Architect",
+        company: "Volvo VCE",
+        description:
+          "Designed and implemented integration between Windchill PLM and SAP using Tibco ESB.",
+      },
+      {
+        period: "Dec 2017 - May 2018",
+        position: "Senior Java Developer / Solution Architect",
+        company: "IIoT (Continental / Vaillant / Fresenius / NCR)",
+        description:
+          "Led architecture design and performance optimization for industrial IoT solutions.",
+      },
+      {
+        period: "Jun 2014 - Oct 2017",
+        position: "Java Developer / Technical Leader",
+        company: "MBDA",
+        description:
+          "Worked on legacy systems integration and Windchill PLM customizations.",
+      },
+      {
+        period: "Sep 2011 - Jun 2014",
+        position: "Java Developer",
+        company: "Airbus Helicopters / Eurocopter",
+        description:
+          "Implemented PLM solutions and delivered Windchill PLM customizations.",
+      },
+      {
+        period: "Jul 2011 - Sep 2011",
+        position: "Junior Java Developer",
+        company: "Lockheed Martin",
+        description:
+          "Contributed to Java development work in an early-career engineering role.",
       },
     ],
   },
   connect: {
     title: "Let's Connect",
     description:
-      "Feel free to reach out if you want to collaborate or just say hi! You can find us on social media or drop us an",
+      "Feel free to reach me out if you want to collaborate or just say hi!",
     email: {
       text: "email",
       href: "mailto:mielczarek.lukasz.karol@gmail.com",
@@ -119,4 +205,3 @@ export const projectsContent = {
     },
   ],
 };
-
