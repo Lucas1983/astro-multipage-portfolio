@@ -24,7 +24,7 @@ export const homeContent = {
     },
   },
   images: {
-    light: "https://multiplepage-portfolio.edgeone.app/assets/images/tech-background-light.svg",
+    light: "/assets/images/tech-background.svg",
     dark: "/assets/images/tech-background-dark.svg",
   },
 };
