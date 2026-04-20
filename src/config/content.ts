@@ -12,7 +12,7 @@ export const siteConfig = {
 export const homeContent = {
   title: "Hello, I'm Lukasz",
   description:
-    "I’m a software engineer with strong experience in industrial IT, and I’m especially excited by distributed systems, data-driven platforms, and IoT solutions that connect software with the real world.",
+    "Backend-focused software engineer with deep experience building scalable cloud platforms, distributed systems, and integration-heavy enterprise solutions, working across architecture, delivery, and platform engineering to solve real-world problems.",
   buttons: {
     about: {
       text: "View About",
@@ -36,7 +36,7 @@ export const aboutContent = {
   },
   title: "About Me",
   description:
-    "Backend-focused software engineer with deep experience in building scalable cloud platforms, distributed systems, and integration-heavy enterprise solutions. I work across architecture, delivery, and platform engineering, with a strong focus on Java, AWS, microservices, and event-driven systems.",
+    "I’m a software engineer with over 15 years of strong experience in industrial IT, and I’m especially excited by distributed systems, data-driven platforms, and IoT solutions, with a strong focus on cloud, microservices, and event-driven systems.",
   skills: [
     {
       name: "Programming Languages",
