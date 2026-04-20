@@ -12,7 +12,7 @@ export const siteConfig = {
 export const homeContent = {
   title: "Hello, I'm Lukasz",
   description:
-    "A passionate backend developer with a keen eye for design and a love for creating beautiful, functional web experiences.",
+    "I’m a software engineer with strong experience in industrial IT, and I’m especially excited by distributed systems, data-driven platforms, and IoT solutions that connect software with the real world.",
   buttons: {
     about: {
       text: "View About",
