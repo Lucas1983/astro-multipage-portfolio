@@ -7,8 +7,8 @@ import "../styles/global.css";
 <!-- Navigation Bar Component -->
 <nav class="relative z-50">
   <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex items-center justify-between h-16">
-      <div class="inline-flex items-center space-x-5">
+    <div class="flex flex-col gap-4 py-4 sm:h-16 sm:flex-row sm:items-center sm:justify-between sm:py-0">
+      <div class="inline-flex items-center justify-center space-x-4 sm:justify-start md:space-x-5">
         <a
           href={siteConfig.social.github}
           target="_blank"
@@ -66,7 +66,7 @@ import "../styles/global.css";
           </svg>
         </a>
       </div>
-      <div class="flex items-center space-x-6">
+      <div class="flex items-center justify-center space-x-5 sm:justify-end md:space-x-6">
         <a
           href="/"
           class="text-neutral-600 hover:text-neutral-400 dark:text-neutral-400 dark:hover:text-neutral-200 transition-colors"
