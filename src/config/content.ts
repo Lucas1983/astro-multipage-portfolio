@@ -95,7 +95,7 @@ export const aboutContent = {
         position: "Lead Developer",
         company: "Scania AB",
         description:
-          "Supporting the design and development of a cloud-native, microservices-based warranty system for Scania trucks, strengthening system architecture and advocating for modern software development best practices.",
+          "Supporting the design and development of a cloud-native, distributed warranty system for Scania trucks, strengthening system architecture and advocating for modern software development best practices.",
       },
       {
         period: "Jun 2024 - June 2025",
