@@ -91,11 +91,18 @@ export const aboutContent = {
     title: "Experience",
     items: [
       {
-        period: "Jun 2024 - Present",
+        period: "Jun 2025 - Present",
+        position: "Lead Developer",
+        company: "Scania AB",
+        description:
+          "Supporting the design and development of a cloud-native, microservices-based warranty system for Scania trucks, strengthening system architecture and advocating for modern software development best practices.",
+      },
+      {
+        period: "Jun 2024 - June 2025",
         position: "Lead Developer",
         company: "Roofio.ai",
         description:
-          "Leading the end-to-end development of an AI-powered MVP for analyzing technical drawings, from platform setup to delivery.",
+          "Lea the end-to-end development of an AI-powered MVP for analyzing technical drawings, from platform setup to delivery.",
       },
       {
         period: "Jun 2023 - Jun 2024",
